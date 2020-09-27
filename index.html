@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>WebP Test</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+</head>
+<body>
+    <div class="container">
+         <figure class="figure">
+             <picture class="webp-html webp">
+                 <source class="img" srcset="img/pic.webp" type="image/webp">
+                 <img class="img" src="img/pic.jpeg" alt="picture">
+             </picture>
+             <figcaption class="caption">WebP в HTML</figcaption>
+         </figure>
+        <div class="webp-css">
+            <div class="webp-css-img webp"></div>
+            <p class="caption">WebP в CSS</p>
+         </div>
+    </div>
+    <script src="js/modernizr-custom.js"></script>
+</body>
+</html>

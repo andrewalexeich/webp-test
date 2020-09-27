@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 540px;
+    min-width: 320px;
+}
+
+.webp, .figure {
+    display: block;
+    margin: 0 0 20px;
+}
+
+.caption {
+    margin: 0;
+}
+
+.caption:last-child {
+    margin-bottom: 0;
+}
+
+.webp-html .img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.webp-css-img {
+    width: 100%;
+    background: url("../img/pic.webp") no-repeat;
+    background-size: 100% 100%;
+    padding-top: 55.5%;
+}
+
+.no-webp .webp-css-img {
+    width: 100%;
+    background: url("../img/pic.jpeg") no-repeat;
+    background-size: 100% 100%;
+    padding-top: 55.5%;
+}
